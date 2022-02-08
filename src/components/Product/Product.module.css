@@ -1,0 +1,61 @@
+.product {
+  font-size: 36px;
+  background-color: #F1F0FF;
+  border-radius: 1.5em;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.title {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.description {
+  margin-bottom: 2em;
+  font-size: 0.66em;
+}
+
+.form {
+  max-width: 100%;
+}
+
+.label {
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 8px;
+  border: 2px solid #D6D8E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.label input {
+  border: none;
+  margin-left: 20px;
+  font-weight: 500;
+  color: #232329;
+  font-size: 0.66em;
+  outline: none;
+}
+
+@media screen and (max-width: 665px) {
+  .label {
+    flex-direction: column;
+  }
+
+  .label input {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .label button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 780px;
+  margin: 190px auto 140px;
+}
+
+.h1 {
+  font-size: 96px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin: 0.5em auto ;
+  text-align: center;
+}
